@@ -1,0 +1,35 @@
+name: translator_app
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  translator: ^0.1.7
+  flutter_tts: ^3.0.0
+  image_picker: ^0.7.4
+  firebase_ml_vision: ^0.12.0+1
+  firebase_core: ^1.1.0
+  cloud_firestore: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Medium
+      fonts:
+        - asset: fonts/test-calibre-medium.ttf
+    - family: Regular
+      fonts:
+        - asset: fonts/test-calibre-regular.ttf
+    - family: Light
+      fonts:
+        - asset: fonts/test-calibre-light.ttf
